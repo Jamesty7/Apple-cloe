@@ -14,12 +14,13 @@ a {
 header {
     background: rgba(0, 0, 0.8);
     display: flex;
+    width: 100%;
 
 }
-
+ 
 nav {
     width: 100%;
-}
+} 
 
 nav ul {
     display: flex;
@@ -36,28 +37,62 @@ nav a {
 
 /* Shop online Style */
 
-.shop-online {
-    background-color: #fbfbfd;
-    text-align: center;
+#shop {
+    margin: auto;
+    border: blue;
     width: 610px;
     padding: 20px 0;
     
+    
 }
 
-/* iPhone Style */
+/* General Section style */
 
 .full-width-section  {
     width: 100%;
     height: 650px;
     margin-bottom: 20px;
-    margin-left:  20px;
     padding-top: 40px;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
-.full-width-section div a  {
+/* iPhone Style */
+
+.iphone {
+
+    background-image: url("https://www.apple.com/v/home/aj/images/promos/iphone-13-pro/tile_iphone_13pro__fohp4zoftvu6_large_2x.jpg");
+    background-position: center;
+    background-size: auto;
+
+}
+/* Watch section style */
+
+.watch {
+    background-image: url("https://www.apple.com/v/home/aj/images/heroes/watch-series-7/hero_watch__f05go333pz2i_largetall.jpg");
+    background-position: center;
+    background-size: auto;
+}
+
+
+/* Valentine's section */
+
+
+.iphone-valentines {
+    background-image: url("https://www.apple.com/v/home/aj/images/promos/valentines-day/promo_vday22__oz9b5x4x7ney_large.jpg");
+    background-position: center;
+    background-size: auto;
+    color: rgb(112, 16, 72);
+
+}
+
+
+
+
+
+
+.full-width-section div   {
     width: 150px;
     display: flex;
     justify-content: space-between;
@@ -65,16 +100,63 @@ nav a {
 }
 
 
-.full-width-section .iphone a {
+#learn-buy {
+
+    margin: auto;
+    margin-top: 20px;
     width: 150px;
     display: flex;
-    text-align: center;
+
+    
 }
 
 
-.iphone {
+.promos-container {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    background-color: brown;
+    height: 500px;
+    width: 100%;
 
-    background-image: url("https://www.apple.com/v/home/aj/images/promos/iphone-13-pro/tile_iphone_13pro__fohp4zoftvu6_large_2x.jpg");
+}
+  
+.inner-promo-div-1  {
+    background-image: url("https://www.apple.com/v/home/aj/images/promos/watch-heart-month/promo_watch_heart__dlf8uc5h0kae_large.jpg");
     background-position: center;
-
+    background-size: cover;
+    margin: 25px;
+    display: flex; 
+    flex-direction: row;
+    height: 350px;
+    width: 30%;
+    background-color: cornflowerblue;
+    position: relative;
 }
+
+.text-watch-div {
+    position: absolute;
+    margin: auto;
+    align-items: center;
+}
+
+.inner-promo-div-2  {
+    margin: 25px;
+    display: flex; 
+    flex-direction: row;
+    height: 350px;
+    width: 30%;
+    background-color: cornflowerblue;
+}
+
+@media (max-width: 600px) {
+    
+    header {
+        background: rgb(217, 217, 231);
+        width: 100%;
+    
+    }
+
+    
+  }
