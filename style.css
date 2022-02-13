@@ -15,12 +15,11 @@ header {
     background: rgba(0, 0, 0.8);
     display: flex;
     width: 100%;
-
 }
- 
+
 nav {
     width: 100%;
-} 
+}
 
 nav ul {
     display: flex;
@@ -28,12 +27,21 @@ nav ul {
     list-style: none;
     align-items: center;
     color: white;
-
 }
 
 nav a {
     color: white;
 }
+
+#search-icon {
+    background-size: 15px 88px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_search_image__cbllq1gkias2_large.svg);
+    width: 15px;
+    height: 44px;
+    display: inline-block;
+}
+
 
 /* Shop online Style */
 
@@ -42,13 +50,12 @@ nav a {
     border: blue;
     width: 100%;
     padding: 20px 0;
-    
-    
 }
+
 
 /* General Section style */
 
-.full-width-section  {
+.full-width-section {
     width: 100%;
     height: 650px;
     margin-bottom: 20px;
@@ -58,20 +65,19 @@ nav a {
     text-align: center;
 }
 
+
 /* iPhone Style */
 
 .iphone {
-
     background-image: url("https://www.apple.com/v/home/aj/images/promos/iphone-13-pro/tile_iphone_13pro__fohp4zoftvu6_large_2x.jpg");
     background-position: center;
     background-size: auto;
-
 }
+
+
 /* Watch section style */
 
 .watch {
-   
-
     background-image: url("https://www.apple.com/v/home/aj/images/heroes/watch-series-7/hero_watch__f05go333pz2i_largetall.jpg");
     background-position: center;
     background-size: auto;
@@ -80,34 +86,26 @@ nav a {
 
 /* Valentine's section */
 
-
 .iphone-valentines {
     background-image: url("https://www.apple.com/v/home/aj/images/promos/valentines-day/promo_vday22__oz9b5x4x7ney_large.jpg");
     background-position: center;
     background-size: auto;
     color: rgb(112, 16, 72);
-
 }
 
-
-.full-width-section div   {
+.full-width-section div {
     width: 150px;
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
-
 #learn-buy {
-
     margin: auto;
     margin-top: 20px;
     width: 150px;
     display: flex;
-
-    
 }
-
 
 .promos-container {
     flex-wrap: wrap;
@@ -117,14 +115,13 @@ nav a {
     align-content: center;
     background-color: rgb(253, 250, 250);
     width: 100%;
-
 }
-  
+
 .inner-promo-div {
     background-position: center;
     background-size: cover;
     margin: 15px;
-    display: flex; 
+    display: flex;
     flex-direction: row;
     height: 350px;
     width: 45%;
@@ -148,49 +145,31 @@ nav a {
     background-image: url("https://www.apple.com/v/home/aj/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg");
 }
 
-.text-watch-div {
+.inner-promo-content {
     position: absolute;
-    margin: auto;
-    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
 }
 
 @media (max-width: 768px) {
-
-    nav li  {
-      display: none;
+    nav li {
+        display: none;
     }
-
-    .small-version { 
+    .small-version {
         display: block
     }
-
-    
     .iphone {
-       background-size: cover;
-        
+        background-size: cover;
     }
-    
     .watch {
-   
-
         /*  background-image: url("https://www.apple.com/v/home/aj/images/heroes/watch-series-7/hero_watch__f05go333pz2i_largetall.jpg");*/
-            background-image: url("https://sfractus-images.cleo.media/unsafe/6x0:1108x1102/641x0/images/La-montre-connectee-Apple-Watch-Series-7-5568.jpg");
-        }
-        
-
-    .promos-container {
-        background-size: contain ;
-        
+        background-image: url("https://sfractus-images.cleo.media/unsafe/6x0:1108x1102/641x0/images/La-montre-connectee-Apple-Watch-Series-7-5568.jpg");
     }
-
+    .promos-container {
+        background-size: contain;
+    }
     .inner-promo-div {
         width: 90%;
     }
-
-  }
-
-
-
-
-    
-  
+}
